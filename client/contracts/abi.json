@@ -1,0 +1,90 @@
+
+[
+      {
+        "inputs": [],
+        "name": "generateHash",
+        "outputs": [
+          {
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "Adhar",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "Mobile",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "City",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "Pincode",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "Crops",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "Price",
+            "type": "uint256"
+          }
+        ],
+        "name": "getData",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "Bolck",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "TIME",
+            "type": "uint256"
+          }
+        ],
+        "name": "log",
+        "type": "event"
+      }
+    ]
+   
